@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node9:dev
+    volumes:
+      - .:/data
+    ports:
+      - "8080:8080"
+    working_dir: /data
+    command: ["node", "--experimental-modules", "index.mjs"]
+    # command: ["yarn", "start"]

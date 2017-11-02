@@ -1,0 +1,14 @@
+{
+  "name": "request-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donovan Graham <donovan@platfrom7.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  }
+}
